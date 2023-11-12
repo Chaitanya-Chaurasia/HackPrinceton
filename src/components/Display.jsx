@@ -13,17 +13,20 @@ const Display = ({ contract, account }) => {
         dataArray = await contract.display(account);
       }
       console.log(dataArray);
-  
-      if (dataArray && Object.keys(dataArray).length !== 0) {
-        const str = dataArray.toString();
-        const str_array = str.split(",");
-        const images = str_array.map((item, i) => (
-          <a href={item} key={i} target="_blank">
-            <img
-              src={`https://gateway.pinata.cloud/ipfs/${item.substring(6)}`}
-              alt="new"
-              className="image-list"
-            />
+
+      if (dataArray && dataArray.length !== 0) {
+        const fetchImage = async (url) => {
+          const response = await fetch(url);
+          const blob = await response.blob();
+          return URL.createObjectURL(blob);
+        };
+
+        const imagePromises = dataArray.map(fetchImage);
+        const imageUrls = await Promise.all(imagePromises);
+
+        const images = imageUrls.map((url, i) => (
+          <a href={dataArray[i]} key={i} target="_blank">
+            <img src={url} alt={`Image ${i}`} className="image-list" />
           </a>
         ));
         setData(images);
@@ -35,7 +38,7 @@ const Display = ({ contract, account }) => {
       alert("Error occurred: " + e.message);
     }
   };
-  
+
   return (
     <>
       <div className="image-list">{data}</div>
