@@ -3,7 +3,7 @@ _**Your Blockchain-powered Document Sharing Platform**_
 
 Welcome to Doc Chain, where our blockchain-powered platform revolutionizes immigration document submission. Our secure and user-friendly web application accelerates processing times, reducing the risk of lost documents with cutting-edge encryption. With Doc Chain's innovative web3 solution, immigrants can confidently manage submissions worldwide, ensuring their personal information remains confidential and protected.
 
-![Doc Chain Logo](https://cdn.discordapp.com/attachments/1172004084216254474/1173260702081888356/logo_princeton.png?ex=65634f2d&is=6550da2d&hm=2a7ae408eb60643e38fdea6f3a85cb47ea32b77bf2a1a4edcb84e9c7b692ee89&)
+<img src="/src/images/logo.png" width="300px">
 
 ## Mission Statement
 Our web application revolutionizes the immigration process by providing a secure, efficient, and user-friendly platform for sending important documents directly to embassies. Understanding the sensitivity and urgency of immigration-related paperwork, our app employs state-of-the-art encryption and security protocols to ensure that every document remains confidential and protected. It streamlines the cumbersome paperwork process, reducing the risk of lost or delayed documents and accelerating the processing time. With our web3 app, immigrants can confidently and conveniently manage their document submissions from anywhere in the world, knowing that their personal information is in safe hands. This innovative solution not only simplifies the immigration process but also reinforces the trust and reliability essential for such critical procedures.
