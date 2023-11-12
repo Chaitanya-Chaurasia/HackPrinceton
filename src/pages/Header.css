@@ -1,0 +1,20 @@
+/* Header.css */
+
+.header {
+  width: 100%;
+  padding: 1rem 0;
+  background-image: linear-gradient(
+    to right,
+    #faaca8,
+    #ddd6f3
+  ); /* Adjust the colors to your preference */
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow to the header */
+}
+
+.logo {
+  max-width: 150px; /* You can adjust the size of your logo */
+  height: 50px; /* Maintain the aspect ratio */
+}

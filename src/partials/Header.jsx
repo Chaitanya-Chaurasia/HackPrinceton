@@ -4,6 +4,7 @@ import Logo from "./../images/logo.png";
 
 function Header() {
   const [top, setTop] = useState(true);
+  const [isLoading, setIsLoading] = useState(false); // New state for loading
 
   // detect whether user has scrolled the page down by 10px
   useEffect(() => {
@@ -13,6 +14,16 @@ function Header() {
     window.addEventListener("scroll", scrollHandler);
     return () => window.removeEventListener("scroll", scrollHandler);
   }, [top]);
+
+  // Mock function to simulate loading and redirect
+  const handleTryApplicationClick = () => {
+    setIsLoading(true);
+    // Simulate a network request or waiting period before redirect
+    setTimeout(() => {
+      setIsLoading(false);
+      // Redirect logic here
+    }, 2000);
+  };
 
   return (
     <header
