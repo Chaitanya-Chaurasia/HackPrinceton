@@ -1,0 +1,24 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 3.5rem;
+  border: 2px solid #000;
+  background-color: #1c2566;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  padding: 0 2rem;
+  position: sticky;
+  top: 1rem;
+}
+
+.navBar-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navBar-title {
+  font-size: 1.5rem;
+}

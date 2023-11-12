@@ -1,0 +1,34 @@
+.heroContainer {
+  display: flex;
+  width: 60%;
+  padding: 4rem 0;
+  /* background-color: #1c2566; */
+}
+
+.heroContainer-text {
+  /* width: 40%; */
+}
+
+.heroContainer-text > h1 {
+  font-size: 5rem;
+  margin-bottom: 0;
+  line-height: 100%;
+}
+
+.heroContainer-text > h2 {
+  font-size: 2.5rem;
+  margin-top: 2.5rem;
+  line-height: 100%;
+}
+
+.heroContainer-img {
+  display: flex;
+  /* width: 60%; */
+  justify-content: center;
+  align-items: center;
+}
+
+.heroContainer-img img {
+  max-width: 80%;
+  height: auto;
+}
