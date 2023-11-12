@@ -8,13 +8,9 @@ function App() {
   return (
     <>
       <NavBar />
-
       {/* Hero Section */}
       <Hero />
-      {/* Buttons */}
-      {/* <TextField id="outlined-basic" label="Outlined" variant="outlined" />
-      <TextField id="filled-basic" label="Filled" variant="filled" />
-      <TextField id="standard-basic" label="Standard" variant="standard" /> */}
+      {/* Info Section */}
     </>
   );
 }

@@ -12,7 +12,7 @@ const NavBar = () => {
       </div>
 
       <Button size="small" variant="contained" color="primary">
-        Login In
+        Login
       </Button>
     </nav>
   );
